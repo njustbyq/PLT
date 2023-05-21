@@ -3,7 +3,7 @@
 #reader(lib "htdp-beginner-reader.ss" "lang")((modname Letter_Templates) (read-case-sensitive #t) (teachpacks ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp"))) (htdp-settings #(#t constructor repeating-decimal #f #t none #f ((lib "image.rkt" "teachpack" "2htdp") (lib "universe.rkt" "teachpack" "2htdp")) #f)))
 ; Programs usually consist of a main function that calls helper functions
 ; Define one function per task.
- Define one function per task.
+; Define one function per task.
 (require 2htdp/batch-io)
 (define (letter fst lst signature-name)
   (string-append
